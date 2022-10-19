@@ -173,13 +173,13 @@ def main():
 
                 # control the probe (if exists)
                 if probe in planets:
-                    if event.key == pygame.K_LEFT:
+                    if event.key == pygame.K_LEFT or event.key == pygame.K_a:
                         planets[planets.index(probe)].x_vel -= 1000
-                    elif event.key == pygame.K_RIGHT:
+                    elif event.key == pygame.K_RIGHT or event.key == pygame.K_d:
                         planets[planets.index(probe)].x_vel += 1000
-                    elif event.key == pygame.K_DOWN:
+                    elif event.key == pygame.K_DOWN or event.key == pygame.K_s:
                         planets[planets.index(probe)].y_vel += 1000
-                    elif event.key == pygame.K_UP:
+                    elif event.key == pygame.K_UP or event.key == pygame.K_w:
                         planets[planets.index(probe)].y_vel -= 1000
 
         for planet in planets:
