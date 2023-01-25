@@ -1,19 +1,14 @@
 # Planetary System Simulator
-Um simulador de sistemas planetários, onde há física real e já vem com o nosso Sistema Solar, contém uma sonda (probe) que você pode controlar.
+It has real physics and contains the Solar System as standard, it has a probe that you can control
 
-Eu fiz com Python 3.10.7 com a biblioteca Pygame
+Contains the Sun and all the 8 planets, but you can easily edit it in the source code
 
-Contém o Sol e todos os 8 planetas, mas você pode facilmente editar no código fonte
+### Controls
 
-### Controles
+Mouse wheel: zoom out / zoom in
 
-Mousewheel: Diminui/aumenta o zoom
+Arrows: controls the probe
 
-Setinhas: Controle da sonda
+"-" and "+" : decreases and increases the simulation speed
 
-"-" e "+" : Altera a velocidade da simulação
-
-
-Obs: O programa não irá funcionar se você não tiver a biblioteca Pygame instalada
-
-Bom, é isso então..
+Warning: you need the pygame library installed, the program won't work without it.
