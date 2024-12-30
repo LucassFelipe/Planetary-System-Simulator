@@ -1,14 +1,13 @@
 # Planetary System Simulator
-It has real physics and contains the Solar System as standard, it has a probe that you can control
+It's made with pygame and contains realistic gravitational forces, based on Newton's universal gravitational law
 
-Contains the Sun and all the 8 planets, but you can easily edit it in the source code
+The Solar System is set as standard, with the Sun and all the 8 planets
 
+The simulator also presents a controllable probe, which is set near Earth at the start of the simulation. You have the power to change it's x and y velocity
 ### Controls
 
 Mouse wheel: zoom out / zoom in
 
-Arrows: controls the probe
+WASD or arrow keys: controls the probe
 
 "-" and "+" : decreases and increases the simulation speed
-
-Warning: you need the pygame library installed, the program won't work without it.
